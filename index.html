@@ -1,0 +1,271 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+    </style>
+    <script type="text/javascript" src="jquery-3.6.4.min.js">  
+    </script> 
+</head>
+
+<body class="  text-white bg-neutral-900  ">
+    <div class="fixed left-2 top-2  z-40 md:hidden">
+        <button onclick="showHtmlDiv()"   class="w-10 h-8 bg-[#808080] opacity-40 rounded-[6px]"  ><img
+                class="w-4 h-4 mx-auto" src="images/hamburger.png" alt=""></button>
+    </div>
+    <div class="bg-[url('images/bg8.jpg'),url('images/bg7.jpg')] bg-cover bg-center h-[400px] md:h-[500px] xl:h-[600px]   ">
+                
+        <div class="pl-2 w-[150px] pr-4 pt-5 h-[100vh] bg-black fixed top-0 text-[10px] font-sans md:hidden  transition duration-100  "style="display:none"  id="html-show" >
+             
+            <div class="text-gray-300 z-40  font-semibold opacity-75 pt-6 md:hidden"   >
+                
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-4  ">
+                    <a href="">Home</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-4  ">
+                    <a href="">Dropdown</a>
+                </div>
+
+                <div class="py-[6px] border-b-[1px] border-gray-400 pr-6 pl-4  ">
+                    <a href="">Dropdown 1</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pr-6 pl-4">
+                    <a href="">Dropdown 2</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-6">
+                    <a href="">Submenu 1</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-6">
+                    <a href="">Submenu 2</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-6">
+                    <a href="">Submenu 3</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-6">
+                    <a href="">Submenu 4</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pr-6 pl-4">
+                    <a href="">Dropdown 3</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-8">
+                    <a href="">Submenu 1</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-8">
+                    <a href="">Submenu 2</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pr-6 pl-4">
+                    <a href="">Test</a>
+                </div>
+                <div class="py-[6px] border-b-[1px] border-gray-400 pl-4">
+                    <a href="">Generic</a>
+                </div>
+                <div class="py-[6px]   pl-4">
+                    <a href="" class="">Elements</a>
+                </div>
+            </div>
+            
+
+        </div>
+        <header class=" ">
+            <div class="flex justify-center md:justify-between md:px-[10vw] xl:px-[20vw]">
+                
+                <div class="pt-4 font-semibold opacity-90 invisible md:visible">
+                    <a href="home">HOME</a>
+                </div>
+                <div class="pt-4 font-semibold opacity-90 invisible md:visible">
+                    <a href="home">DROPDOWN</a>
+                </div>
+                <div class="  text-center  ">
+                    <div class="w-32 h-28 md:h-[150px]  md:w-[180px] bg-[#96c46c] flex justify-center">
+                        <div
+                            class="w-24 h-20 md:h-[120px]   border-t-[1px] border-b-[1px] py-2 mt-5 text-[24px] md:text-[34px] text-white leading-12 ">
+                            <a href="" class="w-100% h-100%  font-light">
+                                <p> WIDE</p>
+                            </a>
+                            <a href="" class="w-100% h-100%  font-bold">LOGOS</a>
+                        </div>
+                    </div>
+                    <div class="w-0 h-0 
+                border-l-[72px] md:border-l-[90px]  border-l-transparent
+                border-t-[25px] md:border-t-[35px] border-t-[#96c46c]
+                border-r-[72px] md:border-r-[90px]  border-r-transparent
+                 "></div>
+
+                </div>
+                <div class="pt-4 font-semibold opacity-90 invisible md:visible">
+                    <a href="home">GENERIC</a>
+                </div>
+                <div class="pt-4 font-semibold opacity-90 invisible md:visible">
+                    <a href="home">ELEMENTS</a>
+                </div>
+            </div>
+        </header>
+        <div class="text-center flex justify-center">
+            <div class="w-4/5">
+                <h1 class="text-[34px] md:text-[54px] pt-10 pb-4 border-b-2 font-semibold">PLACE HOLDER</h1>
+                <p class="py-6 text-[18px] md:text-[26px] font-semibold">Ipsum Dolor Sit Amet Ipsum Dolor Sit Amet</p>
+            </div>
+        </div>
+    </div>
+    <div class="  text-white  z-0 ">
+        <div>
+            <div class="  text-center py-8 md:py-12">
+                <div class="w-3/5 mx-auto  ">
+                    <h1 class="font-semibold text-[20px] md:text-[40px]  pb-4  "> IPSUM DOLOR SIT AMET</h1>
+                    <p class="text-[14px] md:text-[16px]   ">Aenean vel justo nulla, at gravida elit. In hac
+                        habitasse platea dictumst. Quisque gravida commodo volutpat. Vivamus blandit risus in urna
+                        venenatis accumsan. Pellentesque habitant morbi consequat nullam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="block md:grid md:grid-cols-3   ">
+            <div class="  text-center pb-4 pt-4 md:border-b-[1px] border-gray-500 border-gray-500">
+                <div class="border-2 rounded-full w-12 h-12 text-center mx-auto">
+                    <h1 class="text-[30px] font-semibold">01</h1>
+                </div>
+                <div class="w-4/5 mx-auto pt-4 pb-4 border-b-[1px] border-gray-500 md:border-b-0">
+                    <div class="w-4/5 mx-auto">
+                        <h2 class="font-semibold text-[20px]  pb-4 ">LOREM IPSUM</h2>
+                        <p class="text-[14px] ">Aenean vel justo nulla, at gravida hac habitasse platea amet quisque
+                            gravida et lorem volutpat. Vivamus blandit risus venenatis accumsan. Pellentesque magna
+                            morbi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="  text-center pb-4 pt-4 md:border-l-[1px] md:border-b-[1px] border-gray-500">
+                <div class="border-2 rounded-full w-12 h-12 text-center mx-auto">
+                    <h1 class="text-[30px] font-semibold">02</h1>
+                </div>
+                <div class="w-4/5 mx-auto pt-4 pb-4 border-b-[1px] md:border-b-0 border-gray-500">
+                    <div class="w-4/5 mx-auto">
+                        <h2 class="font-semibold text-[20px]  pb-4 ">LOREM IPSUM</h2>
+                        <p class="text-[14px] ">Aenean vel justo nulla, at gravida hac habitasse platea amet quisque
+                            gravida et lorem volutpat. Vivamus blandit risus venenatis accumsan. Pellentesque magna
+                            morbi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="  text-center pb-4 pt-4 md:border-l-[1px] md:border-b-[1px] border-gray-500">
+                <div class="border-2 rounded-full w-12 h-12 text-center mx-auto">
+                    <h1 class="text-[30px] font-semibold">03</h1>
+                </div>
+                <div class="w-4/5 mx-auto pt-4 pb-4 border-b-[1px] border-gray-500 md:border-b-0 ">
+                    <div class="w-4/5 mx-auto">
+                        <h2 class="font-semibold text-[20px]  pb-4 ">LOREM IPSUM</h2>
+                        <p class="text-[14px] ">Aenean vel justo nulla, at gravida hac habitasse platea amet quisque
+                            gravida et lorem volutpat. Vivamus blandit risus venenatis accumsan. Pellentesque magna
+                            morbi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="  text-center pb-4 pt-4 md:pt-8 ">
+                <div class="border-2 rounded-full w-12 h-12 text-center mx-auto">
+                    <h1 class="text-[30px] font-semibold">04</h1>
+                </div>
+                <div class="w-4/5 mx-auto pt-4 pb-4 border-b-[1px] border-gray-500 md:border-b-0 ">
+                    <div class="w-4/5 mx-auto">
+                        <h2 class="font-semibold text-[20px]  pb-4 ">LOREM IPSUM</h2>
+                        <p class="text-[14px] ">Aenean vel justo nulla, at gravida hac habitasse platea amet quisque
+                            gravida et lorem volutpat. Vivamus blandit risus venenatis accumsan. Pellentesque magna
+                            morbi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="  text-center   pt-4 md:pt-8  md:border-l-[1px] border-gray-500">
+                <div class="border-2 rounded-full w-12 h-12 text-center mx-auto">
+                    <h1 class="text-[30px] font-semibold">05</h1>
+                </div>
+                <div class="w-4/5 mx-auto pt-4 pb-4 border-b-[1px] border-gray-500 md:border-b-0 ">
+                    <h2 class="font-semibold text-[20px]  pb-4 ">LOREM IPSUM</h2>
+                    <p class="text-[14px] ">Aenean vel justo nulla, at gravida hac habitasse platea amet quisque gravida
+                        et lorem volutpat. Vivamus blandit risus venenatis accumsan. Pellentesque magna morbi.</p>
+                </div>
+            </div>
+
+            <div class="  text-center   pt-4 md:pt-8  md:border-l-[1px] border-gray-500">
+                <div class="border-2 rounded-full w-12 h-12 text-center mx-auto">
+                    <h1 class="text-[30px] font-semibold">06</h1>
+                </div>
+                <div class="w-4/5 mx-auto pt-4 pb-8 md:pb-14">
+                    <h2 class="font-semibold text-[20px]  pb-4 ">LOREM IPSUM</h2>
+                    <p class="text-[14px] ">Aenean vel justo nulla, at gravida hac habitasse platea amet quisque gravida
+                        et lorem volutpat. Vivamus blandit risus venenatis accumsan. Pellentesque magna morbi.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class=" w-full pb-6 md:pb-16 border-b-[1px] border-gray-500  md:pt-10 ">
+                <div class="w-[70%]  mx-auto   text-[14px] font-semibold border-b-[1px] md:border-0 border-gray-500   ">
+                    <div class="md:flex space-y-2 md:space-y-0  ">
+
+
+                        <button class="py-3 md:py-5 w-full md:w-2/5  mx-auto   bg-[#96c46c]">GET STARTED</button>
+                        <button class="py-3 md:py-5 w-full md:w-2/5  mx-auto  border-[1px]">LEARN MORE</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="  text-center   pt-4">
+
+            <div class="w-4/5 mx-auto pt-4 pb-8   ">
+                <h2 class="font-semibold text-[20px]  pb-4 ">GET IN TOUCH</h2>
+                <p class="text-[14px] ">Platea dictumst. Quisque gravida commodo volutpat. Vivamus blandit risus in urna
+                    venenatis accumsan. Pellentesque habitant morbi consequat nullam. Aenean vel justo nulla, at gravida
+                    elit. In hac habitasse</p>
+            </div>
+        </div>
+        <div class="pb-8">
+
+            <div class="flex justify-center space-x-2 md:space-x-4">
+                <div class="border-2 rounded-full w-10 md:w-12   flex  ">
+                    <a href="t" class=" "><img src="images/twitter.png" class="p-[4px]" alt=""></a>
+                </div>
+                <div class="border-2 rounded-full w-10 md:w-12  flex  ">
+                    <a href="t" class=" "><img src="images/instagram.png" class="p-[4px]" alt=""></a>
+                </div>
+                <div class="border-2 rounded-full w-10 md:w-12  flex  ">
+                    <a href="t" class=" "><img src="images/facebook.png" class=" " alt=""></a>
+                </div>
+                <div class="border-2 rounded-full w-10 md:w-12  flex  ">
+                    <a href="t" class=" "><img src="images/twitter.png" class="p-[4px]" alt=""></a>
+                </div>
+                <div class="border-2 rounded-full w-10 md:w-12  flex  ">
+                    <a href="t" class=" "><img src="images/mail.png" class="p-[4px]" alt=""></a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="text-[12px] text-center  pb-8">
+            <span class="">© Untitled. All rights reserved. </span>
+        </div>
+    </div>
+     
+      
+</body>
+ 
+ <script>
+    function showHtmlDiv() {
+  var htmlShow = document.getElementById("html-show");
+  if (htmlShow.style.display === "none") {
+    htmlShow.style.display = "block";
+  } else {
+    htmlShow.style.display = "none";
+  }
+}
+ </script>
+ 
+
+</html>
